@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	 <title>M.M</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	
+<header>
+  <<div class="navbar" id="navbar" >
+      <div class="logo"><img src="img/logo.jpg" id="log"></div>
+    <a href="#" class="navbar-header"></a>
+    <button class='navbar-btn'>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class='navbar-item hide'>
+      <ul>
+
+        <li><a href="#"><i class="fa-solid fa-house" ></i> &nbsp Home</a></li>
+        <li><a href="#about"><i class="fa-solid fa-magnifying-glass" ></i> &nbsp About Us</a></li>
+        <li><a href="product.html"><i class="fa-solid fa-product-hunt" ></i> &nbsp Portfolio</a></li>
+        <li><a href="others.html"><i class="fa-solid fa-address-book" ></i> &nbsp Others</a></li>
+        <li><a href="contactus.html"><i class="fa-solid fa-circle-user"></i> &nbsp Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <script>
+    document.querySelector(".navbar-btn").onclick=function(){
+       document.querySelector(".navbar-item").classList.toggle("hide");
+    }
+  </script>
+</header>
+<section>
+  <br><br><br>
+<div class="slider-wrapper">
+<div class="slider">
+  <img src="img/c1.jpg" id="s1">
+   <img src="img/t1.jpg" id="s2">
+    <img src="img/tk2.jpg" id="s3">
+</div>
+<div class="slider-nav">
+  <a href="#s1"id="sn"></a>
+  <a href="#s2"id="sn"></a>
+  <a href="#s3"id="sn"></a>
+</div>
+</div>
+</section>
+<div class="exclu">
+  <p>Now Custom sticker Printing in watercan (300ml,500ml) is Available.</p>
+  <a href="product.html #c3"><button class="btn btn-primary">Click Here to Know More</button></a>
+</div>
+  <br><br>
+<div class="about"id="about">
+<div class="about_section">
+  <img src="img/abouticon.png">
+  <h1>About us</h1>
+  <p><b>M.M RentalVescels</b> is a Trader, giving functions Kitchen rental vessels, Ladders, all package of watercan(300ml, 500ml, 1L, 5L, 10L, 20L), Flat tents, Decoration and lighting for Functions. </p><hr>
+  <p>Proprietor : Murugan M</p>
+  <p>Ph No : 9894432392</p>
+  <br><br><br><br><br><br>
+  <div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.265756450182!2d77.28924867420194!3d8.947641090258857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04297bccd4bde9%3A0x7420ec097dca6e5c!2sM.M%20(RentedVesles)!5e0!3m2!1sen!2sin!4v1720761630153!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div> 
+ </div>
+<br><br><br><br>
+<br><br></div>
+
+
+<footer>
+ <div> <p>Designed By <b>Tech Solution<b> &copy copyright @2024</p></div>
+  <div class="footericon">
+  <div onclick="mypop()" class="popup"><i class="fa-brands fa-facebook"></i>
+    <span class="popuptext" id="myPopup">Not Yet!</span></div>
+
+   <div onclick="mypop1()" class="popup1"><i class="fa-brands fa-twitter"></i>
+     <span class="popuptext1" id="myPopup1">Nsot Yet!</span></div>
+
+   <div onclick="mypop2()" class="popup2"><i class="fa-brands fa-whatsapp"></i>
+     <span class="popuptext2" id="myPopup2">9894432392</span></div>
+
+   <div onclick="mypop3()" class="popup3"><i class="fa-brands fa-instagram" ></i>
+     <span class="popuptext3" id="myPopup3">Not Yet!</span></div>
+
+   <div onclick="mypop4()" class="popup4"><i class="fa-brands fa-envelope"></i>
+     <span class="popuptext4" id="myPopup4">jacksudhan25052001@gmail.com</span></div>
+</div>
+</footer>
+<script>
+function mypop() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");}
+function mypop1() {
+  var popup1 = document.getElementById("myPopup1");
+  popup1.classList.toggle("show1");}
+function mypop2() {
+  var popup2 = document.getElementById("myPopup2");
+  popup2.classList.toggle("show2");}
+function mypop3() {
+  var popup3 = document.getElementById("myPopup3");
+  popup3.classList.toggle("show3");}
+  function mypop4() {
+  var popup4 = document.getElementById("myPopup4");
+  popup4.classList.toggle("show4");}
+</script>
+
+</body>
+</html>
+
