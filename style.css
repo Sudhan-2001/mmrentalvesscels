@@ -100,6 +100,7 @@ footer p{padding: 20px;}
 
 
 @media (min-width:600px){
+	body{width: 600px;margin: 0;height: 100%}
   .navbar .navbar-item{
     position: absolute;
     right: 0;
@@ -128,7 +129,7 @@ footer p{padding: 20px;}
 }
 
 @media (max-width:600px){
-	body{width: 500px;margin: 0;height: 100%}
+	body{width: 650px;margin: 0;height: 100%}
   .navbar .navbar-item ul {
     list-style-type: none;
     padding-right: 150px;
