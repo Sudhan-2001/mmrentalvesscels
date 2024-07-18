@@ -204,7 +204,7 @@ footer p{padding: 20px;}
 
 @media (max-width:400px){
 	body{max-width: 400px;margin: 0;height: 100%}
-	.navbar{width: 350px;position: relative;}
+	.navbar{width: 370px;position: relative;}
  #log{height: 30px;width: 80px;padding-left: 20px;}
   .navbar .navbar-item ul {
     list-style-type: none;
