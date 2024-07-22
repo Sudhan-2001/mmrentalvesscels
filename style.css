@@ -2,7 +2,7 @@ html,body{
   margin: 0;
   padding: 0;
   font-family: cambria;
- background-color: #FBAB7E;
+ background-color: white;   /*#FBAB7E*/
 
 }
 .navbar{
@@ -20,7 +20,7 @@ html,body{
 #navbar{position: fixed;top: 0;z-index: 1;}
 #log{height: 60px;width: 160px;padding-left: 50px;}
 /*Desktop*/
-.container{margin: 10px;padding: 10px;}
+.container{margin: 0;padding: 0;}
 .pro{background-color: #f7ce65;}
 .container .row .col{border: 1px solid;}
 .container .row .col img{height: 150px;width: 150px;}
@@ -203,8 +203,8 @@ footer p{padding: 20px;}
 
 
 @media (max-width:400px){
-	body{width:400px;margin: 0;height: 100%;}
-	.navbar{width: 390px;position: relative;}
+	body{width:100%;margin: 0;height: 100%;background-color: white;overflow: hidden;}
+	.navbar{width: 100%x;position: relative;}
  #log{height: 30px;width: 80px;padding-left: 20px;}
   .navbar .navbar-item ul {
     list-style-type: none;
@@ -254,16 +254,17 @@ footer p{padding: 20px;}
 	.about_section p{font-size: 0.8rem; display: inline;margin: 0;padding: 50px;text-align: center;}
 	.about{ background-color: #f77b4a;text-align: center;width: 320px;padding: 20px;}
 
-	footer{margin-top: 300px;width: 390px;}
+	footer{margin-top: 300px;width: 100%;}
 	footer p{display: inline-block;}
 	.footericon{margin-left: -50px;margin-top: 40px}
 	.footericon .fa-brands{padding: 5px;font-size: 20px;}
 
-	.pro{width: 390px;align-items: center;text-align: center;}
+	.pro{width:100%;align-items: center;text-align: center;}
 	#scro{z-index: 1;}
-	.pro .container .row .col{}
-	 .container .row .col button{padding-right: 30px; font-weight: bold;line-height: 10px;margin: 2px; text-align: center; align-items: center;}
-	 .container .row .col .btn{padding-top: 10px;padding-bottom: 10px; }
+	
+
+	.container .row .col button{padding-right: 30px; font-weight: bold;line-height: 10px;margin: 2px; text-align: center; align-items: center;}
+	.container .row .col .btn{padding-top: 10px;padding-bottom: 10px; }
 	.container .mx-auto{width: 75%;padding: 40px 20px; text-align: center;margin-top: 80px;margin-left: 250px; background-color: #f0d99e; border-radius: 10px;border-style: none;}
 	.container .mx-auto .inputbox{padding: 10px;border: none;box-shadow:none;font-weight: bold;color: gray;}
 	.container .mx-auto .inputbox .btns{border-style: none;box-shadow: none;border-radius: 10px;text-align: center;outline: none;line-height: 30px;width: 75%;font-weight: bold;}
