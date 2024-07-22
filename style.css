@@ -21,7 +21,7 @@ html,body{
 #log{height: 60px;width: 160px;padding-left: 50px;}
 /*Desktop*/
 .container{margin: 0;padding: 0;}
-.pro{background-color: #f7ce65;}
+.pro{background-color:white }   /* #f7ce65;*/
 .container .row .col{border: 1px solid;}
 .container .row .col img{height: 150px;width: 150px;}
 .container .row .col {background-color: white; font-size: 1rem;margin:10px;
@@ -203,37 +203,23 @@ footer p{padding: 20px;}
 
 
 @media (max-width:400px){
-	body{width:100%;margin: 0;height: 100%;background-color: gray;}
+	body{width:100%;margin: 0;height: 100%;padding: 0;}
 	.navbar{width: 100%x;position: relative;}
  #log{height: 30px;width: 80px;padding-left: 20px;}
   .navbar .navbar-item ul {
-    list-style-type: none;
-    padding-right: 50px;
+    list-style-type: none; padding-right: 50px;
   }
 
   .navbar .navbar-item ul li{
-    margin-top: 15px;
-     margin-left: 25px;
+    margin-top: 15px; margin-left: 25px;
   }
   .navbar .navbar-item ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 10px;  }
+    color: white; text-decoration: none;font-size: 10px;  }
     .navbar .navbar-item ul li :hover{font-weight: bold;position: relative;}
   .navbar-btn{
-    border:none;
-    background: none;
-    border:1px solid white;
-    padding:5px;
-    position: absolute;
-    right:10px;
-    top:15px;
-    cursor: pointer;  }
+    border:none;  background: none; border:1px solid white; padding:5px; position: absolute;right:10px;top:15px;cursor: pointer;  }
   .navbar-btn span{
-    display: block;
-    width: 20px;
-    border-top:1px solid white;
-  }
+    display: block; width: 20px;border-top:1px solid white;}
   .navbar-btn span:not(:last-child){
     margin-bottom: 5px;}
   .hide{display: none;}
@@ -260,9 +246,9 @@ footer p{padding: 20px;}
 	.footericon .fa-brands{padding: 5px;font-size: 20px;}
 
 	.pro{width:100%;align-items: center;text-align: center;}
-	#scro{z-index: 1;}
+	#scro .btn{z-index: 1;padding: 13px;}
 	
-
+	.container .row .col{border: 5px solid gray;}
 	.container .row .col button{padding-right: 30px; font-weight: bold;line-height: 10px;margin: 2px; text-align: center; align-items: center;}
 	.container .row .col .btn{padding-top: 10px;padding-bottom: 10px; }
 	.container .mx-auto{width: 75%;padding: 40px 20px; text-align: center;margin-top: 80px;margin-left: 250px; background-color: #f0d99e; border-radius: 10px;border-style: none;}
