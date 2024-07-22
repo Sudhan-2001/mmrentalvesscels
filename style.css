@@ -203,7 +203,7 @@ footer p{padding: 20px;}
 
 
 @media (max-width:400px){
-	body{width:100%;margin: 0;height: 100%;background-color: white;overflow: hidden;}
+	body{width:100%;margin: 0;height: 100%;background-color: gray;}
 	.navbar{width: 100%x;position: relative;}
  #log{height: 30px;width: 80px;padding-left: 20px;}
   .navbar .navbar-item ul {
