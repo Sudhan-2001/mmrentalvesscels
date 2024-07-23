@@ -10,7 +10,7 @@ html,body{
   padding: 20px;;
   background-color: #a63805;
   box-sizing: border-box;
-
+  font-family: "Josefin Sans", sans-serif;
 }
 .navbar .navbar-header{
   color: white;
@@ -20,7 +20,7 @@ html,body{
 #navbar{position: fixed;top: 0;z-index: 1;}
 #log{height: 60px;width: 160px;padding-left: 50px;}
 /*Desktop*/
-.container{margin: 0;padding: 0;}
+.container{margin: 0;padding: 0;font-family: "Josefin Sans", sans-serif;}
 .pro{background-color:white }   /* #f7ce65;*/
 .container .row .col{border: 1px solid;}
 .container .row .col img{height: 150px;width: 150px;}
@@ -29,6 +29,8 @@ html,body{
 .container .row .col p{}
 .container .row .col h1{font-size: 25px;}
 .pro #route .row{width: 200px; margin-left:400px;}
+
+button{font-family: "Jost", sans-serif;}
 
 .slider-wrapper{
 	position: relative;width:1250px;height: 550px; margin: 40px;
@@ -40,7 +42,7 @@ box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);}
 .slider-nav a{z-index: -1;width: 1.5rem;height: 1.5rem;margin: 10px; border-radius: 50%;background-color: gray;opacity: 0.75;transition: opacity ease 250ms;}
 .slider-nav a:hover{opacity: 1;}
 .exclu p{font-size: 1.8rem;font-weight: 7px; margin-left: 200px;margin-right: 200px; text-align: center;}
-.exclu{text-align: center;}
+.exclu{text-align: center;font-family: "Odibee Sans", sans-serif;}
 .btn{cursor: pointer;}
 
 
@@ -51,7 +53,9 @@ footer p{padding: 20px;}
 
 .about_section img{}
 .about_section p{font-size: 1.5rem;font-weight: 5px; margin-left: 200px;margin-right: 200px; }
-.about{margin-top: 120px; background-color: #f77b4a;text-align: center;}
+.about{margin-top: 120px; background-color: #f77b4a;text-align: center;font-family: "Satisfy", cursive;}
+.about h1{font-family: "Odibee Sans", sans-serif;}
+.about p b{  font-family: "Josefin Sans", sans-serif;}
 
 .up{position: fixed;bottom: 0; right: 0;margin-right: 20px;margin-bottom: 20px;}
 
@@ -204,20 +208,20 @@ footer p{padding: 20px;}
 
 @media (max-width:400px){
 	body{width:100%;margin: 0;height: 100%;padding: 0;}
-	.navbar{width: 100%x;position: relative;}
+	.navbar{width: 100%x;position: relative;top: 25px;}
  #log{height: 30px;width: 80px;padding-left: 20px;}
   .navbar .navbar-item ul {
     list-style-type: none; padding-right: 60px;
   }
 
   .navbar .navbar-item ul li{
-    margin-top: 15px; margin-left: 25px;
+    margin-top: 15px; margin-right: 55px;
   }
   .navbar .navbar-item ul li a{
     color: white; text-decoration: none;font-size: 10px;  }
     .navbar .navbar-item ul li :hover{font-weight: bold;position: relative;}
   .navbar-btn{
-    border:none;  background: none; border:1px solid white; padding:5px; position: absolute;right:50px;top:15px;cursor: pointer;  }
+    border:none;  background: none; border:1px solid white; padding:5px; position: absolute;right:60px;top:15px;cursor: pointer;  }
   .navbar-btn span{
     display: block; width: 20px;border-top:1px solid white;}
   .navbar-btn span:not(:last-child){
@@ -239,7 +243,7 @@ footer p{padding: 20px;}
 	.about_section p{display: inline;margin: 0;padding: 50px;text-align: center;align-items: center;}
 	.about{ background-color: #f77b4a;text-align: center;width: 100%;padding: 10px;font-size: 10px;font-weight: bold;}
 	.map{position: relative;margin:50px;border-radius: 10px;}
-	.map iframe{ width: 300px;height:300px;margin-right:50px }
+	.map iframe{ width: 300px;height:300px;margin-left:-60px }
 
 	footer{margin-top: 100px;width: 100%;}
 	footer p{font-size: 11px;margin-bottom: 70px; }
@@ -249,6 +253,7 @@ footer p{padding: 20px;}
 	.footericon .fa-brands{padding: 5px;font-size: 20px;}
 
 	.pro{width:100%;align-items: center;text-align: center;}
+	.pro #route{margin-left: -40px;}.pro h1{margin-left: -60px;}
 	#scro .btn{z-index: 1;padding: 11px;right: 30px;}
 	#route .row .col button{width: 100px;}
 
